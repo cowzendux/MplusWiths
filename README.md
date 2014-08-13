@@ -25,7 +25,7 @@ yrsexp WITH besd;
 ##Example 2
 ###Code
 **varlist1 = ["age", "yrsexp", "besd"]**  
-**varlist2 = ["co", "es", "is"]
+**varlist2 = ["co", "es", "is"]**  
 **MplusWiths(varlist1, varlist2)** 
 ###Output
 age WITH co;  
@@ -41,7 +41,7 @@ besd WITH is;
 ##Example 3
 ###Code
 **varlist1 = ["age", "yrsexp", "besd"]**  
-**varlist2 = ["co", "es", "is"]
+**varlist2 = ["co", "es", "is"]**  
 **MplusWiths(varlist1, varlist2, 1)** 
 ###Output
 age WITH co;  
