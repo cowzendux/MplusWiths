@@ -4,6 +4,8 @@ SPSS Python Extension function that writes a set of "with" statements in the Out
 
 This program accepts a list of names. It then prints a set of WITH statements that pair each name with each other name. This is useful when you have a large number of predictors or outcomes in Mplus and you want to declare * that they are all allowed to covary.
 
+This repository also contains an SPSS Pyhon Extension function "PythonWiths" that does exactly the same thing and which uses the same arguments, but which outputs the covariances as a list of lists, which is consistent with the format needed when using the **MplusPathAnalysis** function.
+
 ##Usage
 **MplusWiths(namelist1, namelist2, within)**
 
