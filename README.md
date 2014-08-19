@@ -6,6 +6,8 @@ This program accepts a list of names. It then prints a set of WITH statements th
 
 This repository also contains an SPSS Pyhon Extension function "PythonWiths" that does exactly the same thing and which uses the same arguments, but which outputs the covariances as a list of lists, which is consistent with the format needed when using the **MplusPathAnalysis** function.
 
+This and other SPSS Python Extension functions can be found at http://www.stat-help.com/python.html
+
 ##Usage
 **MplusWiths(namelist1, namelist2, within)**
 
